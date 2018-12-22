@@ -1,0 +1,32 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "esmodules": true
+        }
+      }
+    ]
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime"
+  ],
+  "env": {
+    "utils": {
+      "plugins": [
+        [
+          "module-resolver",
+          {
+            "root": [
+              "vue-river-ui"
+            ],
+            "alias": {
+              "vue-river-ui/src": "vue-river-ui/lib"
+            }
+          }
+        ]
+      ]
+    }
+  }
+}

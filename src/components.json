@@ -1,0 +1,22 @@
+{
+  "alert": {
+    "path": "./packages/alert/index.js",
+    "cnName": "警告"
+  },
+  "dialog": {
+    "path": "./packages/dialog/index.js",
+    "cnName": "对话"
+  },
+  "table": {
+    "path": "./packages/table/index.js",
+    "cnName": "表格"
+  },
+  "test": {
+    "path": "./packages/test/index.js",
+    "cnName": "测试"
+  },
+  "test-b": {
+    "path": "./packages/test-b/index.js",
+    "cnName": "测试B"
+  }
+}
